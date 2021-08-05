@@ -1,6 +1,7 @@
+from rest_framework import viewsets
+
 from project.models import ProjectInfo
 from project.serializers import ProjectInfoSerializer
-from rest_framework import viewsets
 
 # Create your views here.
 
